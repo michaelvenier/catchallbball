@@ -9,7 +9,7 @@ from streamlit_option_menu import option_menu
 
 
 st.title('NBA Player Stats')
-st.write(str(option_menu.__version__))
+
 #Top menu
 selected_page = option_menu(
     menu_title=None,
