@@ -81,6 +81,8 @@ def load_data2():
     df2.drop('MP Threshold',axis=1,inplace=True) #Delete unneeded column.
 
 
+df2 = load_data2()
+
 # Filtering df2: Rename columns
 df2.columns = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16']
 df2.rename(columns={'0': 'Scenario',
