@@ -21,3 +21,8 @@ streamlit_folium
 opencv-python-headless
 mediapipe
 streamlit_option_menu
+gsheetsdb
+gspread_pandas
+lxml
+requests
+datetime
